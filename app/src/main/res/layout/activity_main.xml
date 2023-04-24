@@ -6,9 +6,15 @@
     tools:context=".MainActivity">
 
     <com.debbie.supportcard.PicView
+        android:id="@+id/pic"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_centerInParent="true"
         />
+
+    <RelativeLayout
+        android:layout_below="@id/pic"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </RelativeLayout>

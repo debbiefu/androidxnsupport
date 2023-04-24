@@ -5,7 +5,7 @@
   <artifactId>supportcard</artifactId>
   <version>1.0.0</version>
   <packaging>aar</packaging>
-  <description>card library for android. Git commit:5ff3584</description>
+  <description>card library for android. Git commit:9dc76b5</description>
   <dependencies>
     <dependency>
       <groupId>com.android.support</groupId>
