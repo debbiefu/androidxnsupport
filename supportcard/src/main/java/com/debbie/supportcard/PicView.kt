@@ -1,7 +1,7 @@
 package com.debbie.supportcard
 
 import android.content.Context
-import android.support.v4.view.ViewPager
+import androidx.viewpager.widget.ViewPager
 import android.util.AttributeSet
 import android.view.View
 import android.widget.RelativeLayout
@@ -25,7 +25,7 @@ class PicView @JvmOverloads constructor(
             ViewItem(R.drawable.img_7, "Juggle Bananas")
         )
 
-        val viewPager = findViewById<View>(R.id.vp_carousel) as ViewPager
+        val viewPager = findViewById<View>(R.id.vp_carousel) as androidx.viewpager.widget.ViewPager
         val adapter = ViewAdapterImpl(context)
         adapter.addCardItem(cslItem)
 

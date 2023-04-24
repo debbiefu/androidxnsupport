@@ -1,6 +1,6 @@
 package com.debbie.supportcard
 
-import android.support.v7.widget.CardView
+import androidx.cardview.widget.CardView
 
 
 val MAX_ELEVATION_FACTOR = 4

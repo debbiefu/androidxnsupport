@@ -1,8 +1,8 @@
 package com.debbie.supportcard
 
 import android.content.Context
-import android.support.v4.view.PagerAdapter
-import android.support.v7.widget.CardView
+import androidx.viewpager.widget.PagerAdapter
+import androidx.cardview.widget.CardView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -13,7 +13,7 @@ import android.widget.Toast
 
 class ViewAdapterImpl(
     private val context: Context
-): PagerAdapter(), IViewAdapter {
+): androidx.viewpager.widget.PagerAdapter(), IViewAdapter {
 
     private val cardViews: ArrayList<CardView?> = ArrayList()
     private val cslItems: ArrayList<ViewItem> = ArrayList()
